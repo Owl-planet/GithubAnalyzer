@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <app-header @CP="selectedComponent = $event"></app-header>
-    <component @CP="selectedComponent = $event" :is="selectedComponent"></component>
+    <keep-alive>
+          <component @CP="selectedComponent = $event" :is="selectedComponent"></component>
+    </keep-alive>
     <app-footer></app-footer>
   </div>
 </template>
