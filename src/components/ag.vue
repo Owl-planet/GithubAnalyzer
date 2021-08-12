@@ -1,7 +1,7 @@
 <template>
     <div>
-        <button class="btn btn-success ml-5 mt-5 mb-5" @click="getChart">2. Run</button>
-        <button class="btn btn-success ml-5 mt-5 mb-5" @click="getUserInfo">1. Get User Infos</button><br>
+        <button class="btn btn-success ml-5 mt-5 mb-5" @click="getUserInfo">1. Get User Infos</button>
+        <button class="btn btn-success ml-5 mt-5 mb-5" @click="getChart">2. Run</button><br>
         <span class="ml-5">1. User : <span style="color:green;">{{isReadyFU}}</span></span> <input class="input-group-text ml-5 mb-2" v-model.lazy="firstUser" style="background-color:black;color:white;" type="text">
         <span class="ml-5">2. User : <span style="color:green;">{{isReadySU}}</span></span> <input class="input-group-text ml-5 mt-2" v-model.lazy="secondUser" style="background-color:black;color:white;" type="text">
         <canvas  id="radar-chart" width="800" height="600"></canvas>
