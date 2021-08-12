@@ -55,7 +55,7 @@ export default{
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 try {
-                    fetch(vm.firstUser)
+                    fetch("https://api.github.com/users/" + vm.firstUser)
                         .then(function (response) {
                             return response.json();
                         }).then(function (response) {
@@ -94,7 +94,7 @@ export default{
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 try {
-                    fetch(vm.secondUser)
+                    fetch("https://api.github.com/users/" + vm.secondUser)
                         .then(function (response) {
                             return response.json();
                         }).then(function (response) {
