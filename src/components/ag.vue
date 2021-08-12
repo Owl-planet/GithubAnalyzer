@@ -34,6 +34,8 @@ export default{
     },
     methods : {
         getUserInfo(){
+            this.isReadyFU = "";
+            this.isReadySU = "";
             let vm = this;
             let FirstUserPublicReposLocal = "";  // Ok
             let SecondUserPublicReposLocal = "";  // Ok
