@@ -10,7 +10,7 @@
             </div>
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © 2021 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">gabyonur.herokuapp.com</a>
+                <a class="text-white" href="https://gabyonur.herokuapp.com/">gabyonur.herokuapp.com</a>
             </div>
         </footer>
     </div>
